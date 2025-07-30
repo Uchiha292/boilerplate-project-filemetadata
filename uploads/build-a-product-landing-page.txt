@@ -1,0 +1,64 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://cdn.freebiesupply.com/logos/large/2x/random-logo-svg-vector.svg">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#main">Main</a>
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#form">Form</a>
+      </nav>
+    </header>
+    <main id="main">
+      <video id="video" width="320" height="240" controls>
+        <source  src="https://youtu.be/DivoUKH7PwE" type="mp4">
+      </video>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit" type="post">
+        <label for="email">Email: <input id="email" placeholder="abc@gmail.com" type="email" name="email"></label>
+        <input id="submit" type="submit">
+      </form>
+    
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body{
+  margin:5%;
+}
+
+#header-img{
+  width: 200px;
+  height: 150px;
+  margin: 1% 38%;
+}
+
+#nav-bar{
+  padding: 20px;
+  position: fixed;
+  top:0;
+  border: 5px solid black;
+  border-top:0;
+  width: 86%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+** end of styles.css **
+
